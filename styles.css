@@ -80,7 +80,8 @@ header {
 }
 
 .categoria {
-  display: flex;
+  position: relative;
+  display: inline-block;
 }
 
 .categoria img {
@@ -91,6 +92,7 @@ header {
 .categoria p {
   color: white;
   font-weight: 700;
+  position: absolute;
 }
 
 .lançamentos {
@@ -101,4 +103,9 @@ header {
   display: flex;
   padding: 8px;
   flex-wrap: wrap;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
