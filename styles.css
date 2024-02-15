@@ -76,7 +76,15 @@ header {
 .menu-item-secundario {
   all: unset;
   font-size: 12px;
+}
+
+.menu-item-secundario a {
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.menu-item-secundario a:hover {
+  color: rgb(185, 47, 53);
 }
 
 .menu-item-primario {
@@ -84,6 +92,20 @@ header {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.05rem;
+}
+
+.menu-item-primario a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sale a {
+  text-decoration: none;
+  color: rgb(185, 47, 53);
+}
+
+.menu-item-primario a:hover {
+  color: rgb(185, 47, 53);
 }
 
 .menu-item-barra {
