@@ -7,200 +7,271 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <header>
-      <img
-        src="assets/img/logo.svg"
-        width="137px"
-        height="61px"
-        alt="logo da vans"
-      />
-      <div class="menu-wrapper">
-        <div class="mini-menu">
-          <ul>
-            <li>BAIXE O APP</li>
-            <li>SUA LOCALIZAÇÃO</li>
-            <li>NOSSAS LOJAS</li>
-            <li>CARTÃO PRESENTE</li>
-            <li>FAVORITOS</li>
-            <li>ATENDIMENTO</li>
-            <li>MINHA CONTA</li>
-            <li>CARRINHO (0)</li>
+    <nav>
+      <header>
+        <img
+          src="assets/img/logo.svg"
+          width="137px"
+          height="61px"
+          alt="logo da vans"
+        />
+        <div class="menu-wrapper">
+          <ul class="menu-secundario">
+            <li class="menu-item-secundario">BAIXE O APP</li>
+            <li class="menu-item-secundario">SUA LOCALIZAÇÃO</li>
+            <li class="menu-item-secundario">NOSSAS LOJAS</li>
+            <li class="menu-item-secundario">CARTÃO PRESENTE</li>
+            <li class="menu-item-secundario">FAVORITOS</li>
+            <li class="menu-item-secundario">ATENDIMENTO</li>
+            <li class="menu-item-secundario">MINHA CONTA</li>
+            <li class="menu-item-secundario">CARRINHO (0)</li>
           </ul>
-        </div>
-        <div class="menu">
-          <ul>
-            <li>NOVIDADES&nbsp;/</li>
-            <li>MASCULINO&nbsp;/</li>
-            <li>FEMININO&nbsp;/</li>
-            <li>INFANTIL&nbsp;/</li>
-            <li>SKATEBOARDING&nbsp;/</li>
-            <li>MAIS&nbsp;/</li>
-            <li>SALE</li>
-            <li>
-              <div>caixa de busca Buscar por...</div>
+          <ul class="menu-principal">
+            <li class="menu-item-primario">NOVIDADES</li>
+            <li class="menu-item-barra">/</li>
+            <li class="menu-item-primario">MASCULINO</li>
+            <li class="menu-item-barra">/</li>
+            <li class="menu-item-primario">FEMININO</li>
+            <li class="menu-item-barra">/</li>
+            <li class="menu-item-primario">INFANTIL</li>
+            <li class="menu-item-barra">/</li>
+            <li class="menu-item-primario">SKATEBOARDING</li>
+            <li class="menu-item-barra">/</li>
+            <li class="menu-item-primario">MAIS</li>
+            <li class="menu-item-barra">/</li>
+            <li class="menu-item-primario">SALE</li>
+            <li class="menu-item-input">
+              <input placeholder="Buscar por..." />
             </li>
           </ul>
           <!-- <div>caixa de busca Buscar por...</div> -->
         </div>
-      </div>
-    </header>
+      </header>
+    </nav>
     <section id="carrossel">
-      <div>
-        <p class="fundo-preto">
-          FRETE GRÁTIS NO SITE TODO até 14/02. Confira localidades no carrinho.
-        </p>
+      <div class="fundo-preto">
+        FRETE GRÁTIS NO SITE TODO até 14/02. Confira localidades no carrinho.
       </div>
-      <div>
-        <img src="assets/img/banner.png" alt="banner teoria das cores" />
-      </div>
-      <div>passagem</div>
-    </section>
-    <section>
-      <div><p class="titulo">COMPRE POR CATEGORIA</p></div>
-      <div class="imagens-categoria">
-        <div class="categoria">
-          <img src="assets/img/categoria-1.png" />
-          <p>OLD SKOOL</p>
-        </div>
-        <div class="categoria">
-          <img src="assets/img/categoria-2.png" />
-          <p>CALÇADOS</p>
-        </div>
-        <div class="categoria">
-          <img src="assets/img/categoria-3.png" />
-          <p>ROUPAS</p>
-        </div>
-        <div class="categoria">
-          <img src="assets/img/categoria-4.png" />
-          <p>ACESSÓRIOS</p>
-        </div>
+      <div class="hero-image-container">
+        <img
+          class="hero-image"
+          src="assets/img/banner.png"
+          alt="banner teoria das cores"
+        />
       </div>
     </section>
-    <section>
-      <div><p class="titulo">LANÇAMENTOS</p></div>
-      <div class="lançamentos">
-        <img src="assets/img/lançamentos-1.png" />
-        <img src="assets/img/lançamentos-2.png" />
-        <img src="assets/img/lançamentos-3.png" />
-        <img src="assets/img/lançamentos-4.png" />
-      </div>
-    </section>
-    <section>
-      <div><p class="titulo">ESCOLHA O SEU CLÁSSICO</p></div>
-      <div>
-        <div>
-          <img src="assets/img/classico-1.png" />
-          <p class="bold">AUTHENTIC</p>
-          <p class="subtitulo">1966</p>
+    <div class="container-principal">
+      <section id="categoria-principal">
+        <div class="secao-titulo">
+          <hr />
+          <p class="titulo">COMPRE POR CATEGORIA</p>
+          <hr />
         </div>
-        <div>
-          <img src="assets/img/classico-2.png" />
-          <p class="bold">ERA</p>
-          <p class="subtitulo">1976</p>
+        <div class="imagens-horizontal">
+          <div class="relative-container">
+            <p class="absolute-text">Old skool</p>
+            <img src="assets/img/categoria-1.png" />
+          </div>
+          <div class="relative-container">
+            <p class="absolute-text">Calçados</p>
+            <img src="assets/img/categoria-2.png" />
+          </div>
+          <div class="relative-container">
+            <p class="absolute-text">Roupas</p>
+            <img src="assets/img/categoria-3.png" />
+          </div>
+          <div class="relative-container">
+            <p class="absolute-text">Acessórios</p>
+            <img src="assets/img/categoria-4.png" />
+          </div>
         </div>
-        <div>
-          <img src="assets/img/classico-3.png" />
-          <p class="bold">OLD SKOOL</p>
-          <p class="subtitulo">1977</p>
+      </section>
+      <section id="lançamentos">
+        <div class="secao-titulo">
+          <hr />
+          <p class="titulo">LANÇAMENTOS</p>
+          <hr />
         </div>
-        <div>
-          <img src="assets/img/classico-4.png" />
-          <p class="bold">SLIP-ON</p>
-          <p class="subtitulo">1977</p>
+        <div class="lançamentos-galeria">
+          <div class="overlay">
+            <img src="assets/img/lançamentos-1.png" />
+            <div class="overlay-conteudo">
+              <p class="overlay-titulo">VOLTA ÀS AULAS</p>
+              <p class="overlay-desc">
+                Mochilas, roupas, calçados e muitos acessórios. Vem conferir
+                essa seleção de produtos para você voltar às aulas no estilo OFF
+                THE WALL!
+              </p>
+              <button class="button-primario">COMPRE AGORA</button>
+            </div>
+          </div>
+          <div class="overlay">
+            <img src="assets/img/lançamentos-2.png" />
+            <div class="overlay-conteudo">
+              <p class="overlay-titulo">KNU STACK NOSTALGIA</p>
+              <p class="overlay-desc">
+                Conheça a combinação perfeita entre o moderno e o retrô. Confira
+                o Knu Nostalgia Stack.
+              </p>
+              <button class="button-primario">COMPRE AGORA</button>
+            </div>
+          </div>
+          <div class="overlay">
+            <img src="assets/img/lançamentos-3.png" />
+            <div class="overlay-conteudo">
+              <p class="overlay-titulo">ROWAN 2</p>
+              <p class="overlay-desc">
+                Com IMPACTWAFFLE™. Duas camadas de proteção que você pode ver e
+                sentir contra impacto.
+              </p>
+              <button class="button-primario">COMPRE AGORA</button>
+            </div>
+          </div>
+          <div class="overlay">
+            <img src="assets/img/lançamentos-4.png" />
+            <div class="overlay-conteudo">
+              <p class="overlay-titulo">VERÃO OFF THE WALL</p>
+              <p class="overlay-desc">
+                Regatas, bonés, bermudas, chinelos, óculos de Sol… Tudo que você
+                precisa para curtir no estilo a estação mais quente do ano.
+              </p>
+              <button class="button-primario">COMPRE AGORA</button>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src="assets/img/classico-5.png" />
-          <p class="bold">SK8-HI</p>
-          <p class="subtitulo">1978</p>
+      </section>
+      <section>
+        <div class="secao-titulo">
+          <hr />
+          <p class="titulo">ESCOLHA O SEU CLÁSSICO</p>
+          <hr />
         </div>
-      </div>
-      <div>
-        <button>VEJA TODOS</button>
-        <button>SKATE CLASSICS</button>
-      </div>
-    </section>
-    <section>
-      <div><p class="titulo">RECOMENDAMOS PARA VOCÊ</p></div>
-      <div>
-        <div>
-          <img src="assets/img/recomendamos-1.png" />
-          <p class="bold">TÊNIS SKATE ROWAN ZORILLA GREY WHITE</p>
-          <p class="subtitulo">R$ 699,99</p>
+        <div class="imagens-horizontal">
+          <div class="classico-card">
+            <img src="assets/img/classico-1.png" />
+            <p class="classico">AUTHENTIC</p>
+            <p class="classico-ano">1966</p>
+          </div>
+          <div class="classico-card">
+            <img src="assets/img/classico-2.png" />
+            <p class="classico">ERA</p>
+            <p class="classico-ano">1976</p>
+          </div>
+          <div class="classico-card">
+            <img src="assets/img/classico-3.png" />
+            <p class="classico">OLD SKOOL</p>
+            <p class="classico-ano">1977</p>
+          </div>
+          <div class="classico-card">
+            <img src="assets/img/classico-4.png" />
+            <p class="classico">SLIP-ON</p>
+            <p class="classico-ano">1977</p>
+          </div>
+          <div class="classico-card">
+            <img src="assets/img/classico-5.png" />
+            <p class="classico">SK8-HI</p>
+            <p class="classico-ano">1978</p>
+          </div>
         </div>
-        <div>
-          <img src="assets/img/recomendamos-2.png" />
-          <p class="bold">TÊNIS SKATE HALF CAB BLACK WHITE</p>
-          <p class="subtitulo">R$ 549,99</p>
+        <div class="classico-botoes">
+          <button class="button-primario">VEJA TODOS</button>
+          <button class="button-primario">SKATE CLASSICS</button>
         </div>
-        <div>
-          <img src="assets/img/recomendamos-3.png" />
-          <p class="bold">TÊNIS SKATE GILBERT CROCKETT BLACKOUT</p>
-          <p class="subtitulo">R$ 579,99</p>
+      </section>
+      <section class="recomendados">
+        <div class="secao-titulo">
+          <hr />
+          <p class="titulo">RECOMENDAMOS PARA VOCÊ</p>
+          <hr />
         </div>
-        <div>
-          <img src="assets/img/recomendamos-4.png" />
-          <p class="bold">TÊNIS OLD SKOOL BLACK PEWTER</p>
-          <p class="subtitulo">R$ 399,99</p>
+        <div class="imagens-horizontal">
+          <div class="recomendamos-card">
+            <img src="assets/img/recomendamos-1.png" />
+            <p class="recomendamos">TÊNIS SKATE ROWAN ZORILLA GREY WHITE</p>
+            <p class="recomendamos-preco">R$ 699,99</p>
+          </div>
+          <div class="recomendamos-card">
+            <img src="assets/img/recomendamos-2.png" />
+            <p class="recomendamos">TÊNIS SKATE HALF CAB BLACK WHITE</p>
+            <p class="recomendamos-preco">R$ 549,99</p>
+          </div>
+          <div class="recomendamos-card">
+            <img src="assets/img/recomendamos-3.png" />
+            <p class="recomendamos">TÊNIS SKATE GILBERT CROCKETT BLACKOUT</p>
+            <p class="recomendamos-preco">R$ 579,99</p>
+          </div>
+          <div class="recomendamos-card">
+            <img src="assets/img/recomendamos-4.png" />
+            <p class="recomendamos">TÊNIS OLD SKOOL BLACK PEWTER</p>
+            <p class="recomendamos-preco">R$ 399,99</p>
+          </div>
         </div>
-      </div>
-      <div>2 BOTÕES: VER TODOS SKATE CLASSICS</div>
-    </section>
-    <section>
-      <div><p class="titulo">VANS NEWS</p></div>
-      <div><p class="titulo">NOSSAS ÚLTIMAS NOTÍCIAS</p></div>
-      <div>
-        <div>
-          <img src="assets/img/noticias-1.png" />
-          <p class="bold">
-            VANS MARCA PRESENÇA NA TURNÊ ITINERANTE I WANNA BE TOUR
-          </p>
-          <p class="subtitulo">
-            Turnê revive as lembranças dos anos 2000 e cria novas memórias com
-            formato inédito no Brasil
-          </p>
-          <button>LEIA MAIS</button>
+      </section>
+      <section>
+        <div><p class="news">VANS NEWS</p></div>
+        <div class="secao-titulo">
+          <hr />
+          <p class="titulo">NOSSAS ÚLTIMAS NOTÍCIAS</p>
+          <hr />
         </div>
-        <div>
-          <img src="assets/img/noticias-2.png" />
-          <p class="bold">
-            VANS SKATEBOARDING APRESENTA O SEGUNDO MODELO ASSINADO POR ROWAN
-            ZORILLA
-          </p>
-          <p class="subtitulo">
-            Primero pro model de Rowan Zorilla foi apresentado em 2020 e agora
-            desembarca no Brasil com formato aprimorado e com a tecnologia
-            ImpactWaffle™
-          </p>
-          <button>LEIA MAIS</button>
+
+        <div class="imagens-horizontal">
+          <div>
+            <img src="assets/img/noticias-1.png" />
+            <p class="bold">
+              VANS MARCA PRESENÇA NA TURNÊ ITINERANTE I WANNA BE TOUR
+            </p>
+            <p class="subtitulo">
+              Turnê revive as lembranças dos anos 2000 e cria novas memórias com
+              formato inédito no Brasil
+            </p>
+            <button>LEIA MAIS</button>
+          </div>
+          <div>
+            <img src="assets/img/noticias-2.png" />
+            <p class="bold">
+              VANS SKATEBOARDING APRESENTA O SEGUNDO MODELO ASSINADO POR ROWAN
+              ZORILLA
+            </p>
+            <p class="subtitulo">
+              Primero pro model de Rowan Zorilla foi apresentado em 2020 e agora
+              desembarca no Brasil com formato aprimorado e com a tecnologia
+              ImpactWaffle™
+            </p>
+            <button>LEIA MAIS</button>
+          </div>
+          <div>
+            <img src="assets/img/noticias-3.png" />
+            <p class="bold">
+              A FAMÍLIA VANS BRASIL CHEGA A 1 MILHÃO NO INSTAGRAM
+            </p>
+            <p class="subtitulo">
+              A extensa família amante dos esportes de ação, música e arte, que
+              celebra o verdadeiro espírito Off The Wall e incentiva a
+              criatividade em sua essência!
+            </p>
+            <button>LEIA MAIS</button>
+          </div>
+          <div>
+            <img src="assets/img/noticias-4.png" />
+            <p class="bold">
+              VANS CELEBRA OS CLÁSSICOS DA MARCA E APOIA A EXPRESSÃO CRIATIVA
+              ATRAVÉS DE EXPOSIÇÕES E PROGRAMAÇÕES
+            </p>
+            <p class="subtitulo">
+              Os fãs da marca poderão experienciar ativações que incorporam o
+              espírito “Off The Wall” em suas duas flagships a partir de
+              Setembro
+            </p>
+            <button>LEIA MAIS</button>
+          </div>
         </div>
-        <div>
-          <img src="assets/img/noticias-3.png" />
-          <p class="bold">
-            A FAMÍLIA VANS BRASIL CHEGA A 1 MILHÃO NO INSTAGRAM
-          </p>
-          <p class="subtitulo">
-            A extensa família amante dos esportes de ação, música e arte, que
-            celebra o verdadeiro espírito Off The Wall e incentiva a
-            criatividade em sua essência!
-          </p>
-          <button>LEIA MAIS</button>
+        <div class="classico-botoes">
+          <button class="button-primario">VEJA TODAS AS NOTÍCIAS</button>
         </div>
-        <div>
-          <img src="assets/img/noticias-4.png" />
-          <p class="bold">
-            VANS CELEBRA OS CLÁSSICOS DA MARCA E APOIA A EXPRESSÃO CRIATIVA
-            ATRAVÉS DE EXPOSIÇÕES E PROGRAMAÇÕES
-          </p>
-          <p class="subtitulo">
-            Os fãs da marca poderão experienciar ativações que incorporam o
-            espírito “Off The Wall” em suas duas flagships a partir de Setembro
-          </p>
-          <button>LEIA MAIS</button>
-        </div>
-        <button>VEJA TODAS AS NOTÍCIAS</button>
-      </div>
-    </section>
-    <footer>
+      </section>
+    </div>
+    <!-- <footer>
       <section>
         <div>
           <div>BAIXE O APP DA VANS</div>
@@ -221,6 +292,6 @@
       <section>
         logo / endereço / VANS PELO MUNDO seletor / chat flutuante
       </section>
-    </footer>
+    </footer> -->
   </body>
 </html>
